@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsnd --poll --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "dev": "tsnd --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
     "typeorm": "tsnd ./node_modules/typeorm/cli"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "csv-parse": "^4.16.0",
     "express": "^4.17.1",
     "multer": "^1.4.2",
