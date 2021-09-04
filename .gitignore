@@ -3,3 +3,8 @@
 
 /yarn.lock
 /yarn-error.log
+
+/tmp/avatar/*
+
+# exception to the rule
+!/tmp/avatar/.gitkeep 
