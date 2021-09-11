@@ -7,6 +7,7 @@ export interface ICarsRepository {
     category_id?: string,
     name?: string,
   ): Promise<Car[]>;
+  findById(car_id: string): Promise<Car>;
   create(data: ICreateCarDTO): Promise<Car>;
   findByLicensePlate(license_plate: string): Promise<Car>;
 }
