@@ -6,7 +6,6 @@ import {
   JoinColumn,
   JoinTable,
   ManyToMany,
-  ManyToOne,
   PrimaryColumn,
 } from 'typeorm';
 import { Category } from './Category';

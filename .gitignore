@@ -8,3 +8,8 @@
 
 # exception to the rule
 !/tmp/avatar/.gitkeep 
+
+/tmp/cars/*
+
+# exception to the rule
+!/tmp/cars/.gitkeep 

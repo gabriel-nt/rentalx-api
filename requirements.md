@@ -37,7 +37,6 @@ Não deve ser possível cadastrar uma especificação já existente para o mesmo
 
 **RF**
 Deve ser possível cadastrar a imagem do carro.
-Deve ser possível listar todos os carros.
 
 **RNF**
 Utilizar o multer para upload dos arquivos.
