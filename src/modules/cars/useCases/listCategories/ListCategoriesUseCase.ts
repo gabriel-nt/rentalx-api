@@ -17,4 +17,4 @@ class ListCategoriesUseCase {
   }
 }
 
-export { ListCategoriesUseCase };
+export default ListCategoriesUseCase;

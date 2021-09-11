@@ -1,5 +1,5 @@
-import ICarsRepository from '@modules/cars/repositories/ICarsRepository';
-import CarsRepositoryInMemory from '@modules/cars/repositories/in-memory/CarsRepositoryInMemory';
+import { ICarsRepository } from '@modules/cars/repositories/ICarsRepository';
+import { CarsRepositoryInMemory } from '@modules/cars/repositories/in-memory/CarsRepositoryInMemory';
 import AppError from '@shared/errors/AppError';
 import CreateCarUseCase from './CreateCarUseCase';
 

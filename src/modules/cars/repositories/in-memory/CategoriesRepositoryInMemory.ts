@@ -29,4 +29,4 @@ class CategoriesRepositoryInMemory implements ICategoriesRepository {
   }
 }
 
-export default CategoriesRepositoryInMemory;
+export { CategoriesRepositoryInMemory };
