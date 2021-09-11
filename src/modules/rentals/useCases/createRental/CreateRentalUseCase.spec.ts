@@ -1,8 +1,9 @@
 import AppError from '@shared/errors/AppError';
-import CreateRentalUseCase from './CreateRentalUseCase';
 
 import { RentalsRepositoryInMemory } from '@modules/rentals/repositories/in-memory/RentalsRepositoryInMemory';
 import { DayjsDateProvider } from '@shared/container/providers/DateProvider/implementations/DayjsDateProvider';
+
+import CreateRentalUseCase from './CreateRentalUseCase';
 
 let dateAdd24Hours: Date;
 let dayjsDateProvider: DayjsDateProvider;
