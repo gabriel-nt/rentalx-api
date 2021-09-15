@@ -5,6 +5,10 @@ import ICreateRentalDTO from '@modules/rentals/dtos/ICreateRentalDTO';
 class RentalsRepositoryInMemory implements IRentalsRepository {
   private rentals: Rental[] = [];
 
+  async findById(id: string): Promise<Rental> {
+    return this.rentals.find(rental => id === rental.id);
+  }
+
   async findOpenRentalByCar(car_id: string): Promise<Rental> {
     return this.rentals.find(
       rental => rental.car_id === car_id && !rental.end_date,
@@ -18,8 +22,11 @@ class RentalsRepositoryInMemory implements IRentalsRepository {
   }
 
   async create({
+    id,
     user_id,
     car_id,
+    end_date,
+    total,
     expected_return_date,
   }: ICreateRentalDTO): Promise<Rental> {
     const rental = new Rental();
@@ -27,6 +34,9 @@ class RentalsRepositoryInMemory implements IRentalsRepository {
     Object.assign(rental, {
       user_id,
       car_id,
+      id,
+      end_date,
+      total,
       expected_return_date,
       start_date: new Date(),
     });

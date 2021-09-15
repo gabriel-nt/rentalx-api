@@ -4,19 +4,23 @@ import { RentalsRepositoryInMemory } from '@modules/rentals/repositories/in-memo
 import { DayjsDateProvider } from '@shared/container/providers/DateProvider/implementations/DayjsDateProvider';
 
 import CreateRentalUseCase from './CreateRentalUseCase';
+import { CarsRepositoryInMemory } from '@modules/cars/repositories/in-memory/CarsRepositoryInMemory';
 
 let dateAdd24Hours: Date;
 let dayjsDateProvider: DayjsDateProvider;
 let createRentalUseCase: CreateRentalUseCase;
 let rentalsRepositoryInMemory: RentalsRepositoryInMemory;
+let carsRepositoryInMemory: CarsRepositoryInMemory;
 
 describe('Create rental', () => {
   beforeEach(() => {
     dayjsDateProvider = new DayjsDateProvider();
+    carsRepositoryInMemory = new CarsRepositoryInMemory();
     rentalsRepositoryInMemory = new RentalsRepositoryInMemory();
     createRentalUseCase = new CreateRentalUseCase(
       rentalsRepositoryInMemory,
       dayjsDateProvider,
+      carsRepositoryInMemory,
     );
 
     dateAdd24Hours = dayjsDateProvider.dateAddDay(new Date(), 1);
