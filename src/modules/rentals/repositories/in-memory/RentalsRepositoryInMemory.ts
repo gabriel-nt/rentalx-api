@@ -5,6 +5,10 @@ import ICreateRentalDTO from '@modules/rentals/dtos/ICreateRentalDTO';
 class RentalsRepositoryInMemory implements IRentalsRepository {
   private rentals: Rental[] = [];
 
+  async findByUser(user_id: string): Promise<Rental[]> {
+    return this.rentals.filter(rental => user_id === rental.user_id);
+  }
+
   async findById(id: string): Promise<Rental> {
     return this.rentals.find(rental => id === rental.id);
   }
