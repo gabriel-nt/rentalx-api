@@ -16,5 +16,5 @@ export async function ensureAdmin(
     throw new AppError('User is not admin');
   }
 
-  return next();
+  next();
 }

@@ -3,6 +3,6 @@ export default interface ICreateRentalDTO {
   car_id: string;
   id?: string;
   end_date?: Date;
-  total: number;
+  total?: number;
   expected_return_date: Date;
 }

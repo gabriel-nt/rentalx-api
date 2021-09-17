@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsnd -r tsconfig-paths/register --poll --inspect --transpile-only --ignore-watch node_modules --respawn src/shared/infra/http/server.ts",
     "typeorm": "tsnd -r tsconfig-paths/register ./node_modules/typeorm/cli",
-    "test": "jest --detectOpenHandles",
+    "test": "jest --detectOpenHandles --runInBand",
     "seed:admin": "tsnd src/shared/infra/typeorm/seeds/admin.ts"
   },
   "dependencies": {

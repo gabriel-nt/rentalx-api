@@ -45,11 +45,7 @@ describe('List Categories Controller', () => {
         Authorization: `Bearer ${token}`,
       });
 
-    const response = await request(app)
-      .get('/categories')
-      .set({
-        Authorization: `Bearer ${token}`,
-      });
+    const response = await request(app).get('/categories');
 
     expect(response.status).toBe(200);
     expect(response.body.length).toBe(1);
