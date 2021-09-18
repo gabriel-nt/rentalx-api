@@ -3,7 +3,7 @@ import { Router } from 'express';
 import { ensureAuthenticated } from '../middlewares/ensureAuthenticated';
 import { CreateRentalController } from '@modules/rentals/useCases/createRental/CreateRentalController';
 import { DevolutionRentalController } from '@modules/rentals/useCases/devolutionRental/DevolutionRentalControlller';
-import ListRentalsByUserController from '@modules/rentals/useCases/listRentalsByUser/ListRentalByUserController';
+import { ListRentalsByUserController } from '@modules/rentals/useCases/listRentalsByUser/ListRentalByUserController';
 
 const rentalsRoutes = Router();
 const createRentalController = new CreateRentalController();

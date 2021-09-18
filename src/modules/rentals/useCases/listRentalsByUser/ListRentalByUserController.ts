@@ -16,4 +16,4 @@ class ListRentalsByUserController {
   }
 }
 
-export default ListRentalsByUserController;
+export { ListRentalsByUserController };

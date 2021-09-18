@@ -19,4 +19,4 @@ class CreateUserController {
   }
 }
 
-export default CreateUserController;
+export { CreateUserController };

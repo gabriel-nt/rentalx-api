@@ -18,4 +18,4 @@ class UpdateUserAvatarController {
   }
 }
 
-export default UpdateUserAvatarController;
+export { UpdateUserAvatarController };
