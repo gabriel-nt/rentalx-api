@@ -5,6 +5,8 @@
 
 /.env
 
+/dist
+
 /yarn.lock
 /yarn-error.log
 
