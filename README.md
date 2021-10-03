@@ -31,7 +31,7 @@ O Rentx é uma aplicação para aluguel de veículos.
 Os usuários da aplicação, podem alugar carros por um determinado tempo.
 Já os usuários adminstradores, podem cadastrar novos veículos, categorias e especificações dos carros.
 
-### Documentação
+### 📖 Documentação
 <img src="https://github.com/gabriel-nt/rentx-api/blob/master/assets/swagger.png" alt="Documentation" />
 
 ### 📎 Features
