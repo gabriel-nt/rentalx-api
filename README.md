@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/oUAKMC5.png" alt="Rentx" />
+  <img src="https://github.com/gabriel-nt/rentx-api/blob/master/assets/rentx.png"  height="22" alt="Rentx" />
 </p>
 
 <h1 align="center">
@@ -10,7 +10,6 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=node&message=14.15&color=green&logo=node.js" />
   <img src="https://img.shields.io/static/v1?label=typescript&message=4.3.5&color=blue&logo=typescript" />
-  <!--<img src="https://img.shields.io/badge/repo%20size-2.00%20MB-informational" />-->
   <img src="https://img.shields.io/badge/last%20commit-october-orange" />
   <img src="https://img.shields.io/badge/license-MIT-success"/>
 </p>
@@ -31,6 +30,9 @@
 O Rentx é uma aplicação para aluguel de veículos.
 Os usuários da aplicação, podem alugar carros por um determinado tempo.
 Já os usuários adminstradores, podem cadastrar novos veículos, categorias e especificações dos carros.
+
+### Documentação
+<img src="https://github.com/gabriel-nt/rentx-api/blob/master/assets/swagger.png" alt="Documentation" />
 
 ### 📎 Features
 
@@ -113,7 +115,7 @@ $ yarn test --coverage
 ### 🧾 Insomnia
 Para ter um exemplo das rotas para a nossa API, basta clicar no link abaixo:
 </br>
-<a href="https://insomnia.rest/run/?label=Rest%20API%20GoBarber&uri=https%3A%2F%2Fgithub.com%2Fgabriel-nt%2FGoBarber-Backend%2Fblob%2Fmaster%2Ftmp%2Frest_api.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<a href="https://insomnia.rest/run/?label=Rentx&uri=https%3A%2F%2Fgithub.com%2Fgabriel-nt%2Frentx-api%2Fblob%2Fmaster%2Fassets%2Fcollection_insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 
 ### 🚀 Tecnologias
 
