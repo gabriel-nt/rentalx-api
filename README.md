@@ -59,10 +59,10 @@ Já os usuários adminstradores, podem cadastrar novos veículos, categorias e e
 #### Gerais
 - Cache
   - [x] Redis
-- Documentações
-  - [x] Swagger
 - ORM
   - [x] Typeorm
+- Documentação
+  - [x] Swagger
 - Logs
   - [x] Sentry
 - Upload de Imagens
