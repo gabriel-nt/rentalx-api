@@ -140,7 +140,6 @@ Esse projeto foi desenvolvido com o auxílio das seguintes libs:
 - swagger-ui-express
 - nodemailer
 - tsyringe
-- typeorm
 - handlebars
 
 ### 📙 Arquitetura do Projeto
